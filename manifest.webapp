@@ -1,0 +1,11 @@
+{
+  "name": "File Browser",
+  "description": "Browse your filesystem",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard": {
+      "access": "readonly"
+    }
+  }
+}

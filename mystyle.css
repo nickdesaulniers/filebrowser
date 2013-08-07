@@ -1,0 +1,29 @@
+div {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#left {
+  width: 50%;
+  float: left;
+}
+
+#right {
+  width: 50%;
+  float: right;
+}
+
+.listing {
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 1px solid black;
+  /*margin: 2px;*/
+  padding: 5px;
+}
